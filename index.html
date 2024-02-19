@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1</title>
+</head>
+<body>
+    <header><p></p></header>
+    <main>
+        
+        <section class="pergunta">
+            <form onsubmit="event.preventDefault();">
+                <div class="nome">
+                    <label for="nome">Qual seu nome?</label>
+                    <input type="text" id="nome" maxlength="10" required> 
+                </div>
+                
+                <div class="idade">
+                    <label for="idade">Qual sua idade?</label>
+                    <input type="text" id="idade" maxlength="3" required>
+                </div>
+    
+                <div class="linguagem"> 
+                    <label for="linguagem" >Qual linguagem vc estuda?</label>
+                    <input type="text" id="linguagem" maxlength="15" required>
+                </div>
+                <button>enviar</button>
+                
+            </form>
+
+        </section>
+        <div class="erro">
+            <p></p>
+            <div class="caixaDeload">
+                <div></div>
+            </div>
+        </div>
+    </main>
+    <script  src="./index.js"></script>
+</body>
+</html>
