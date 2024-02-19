@@ -14,4 +14,4 @@ Utilizamos variáveis para armazenar as respostas do usuário e, em seguida, con
 
 **Resultado Final:**
 
-Veja o resultado final <a href="(https://obrunowww.github.io/7DaysOfCode-1/)">aqui</a>
+Veja o resultado final https://obrunowww.github.io/7DaysOfCode-1/
